@@ -1,6 +1,6 @@
 :root {
   --black: #000;
-  --white: #fff;
+  --light: #fff;
   --cyan: #aedee0;
   --salmon: #ef9d71;
   --dcyan: #0c1010;
@@ -28,7 +28,7 @@
 
 *::selection {
   background-color: var(--salmon);
-  color: var(--white);
+  color: var(--light);
 }
 
 body[theme="black"] {
@@ -36,7 +36,7 @@ body[theme="black"] {
 }
 
 body[theme="black"] .section {
-  color: var(--white);
+  color: var(--light);
 }
 
 body[theme="cyan"] {
@@ -55,10 +55,10 @@ body[theme="salmon"] .section {
   color: var(--dsalmon);
 }
 
-body[theme="white"] {
-  background-color: var(--white);
+body[theme="light"] {
+  background-color: var(--light);
 }
 
-body[theme="white"] .section {
+body[theme="light"] .section {
   color: var(--black);
 }
