@@ -14,13 +14,13 @@
     <div class="main w-full">
         <div class="home section w-full h-screen relative">
             <div class="btmtext z-[4] absolute bottom-[7%] left-[3%]">
-                <h1 class="font-[Satoshi] text-sm font-semibold">
+                <h1 class="font-[Satoshi] text-sm font-semibold text-white">
                     We build big ideas. <br />
                     Software. Apps. Tools. <br />
                     For real people. Real lives.
                 </h1>
             </div>
-            <div class="hidden videodiv w-full h-screen absolute z-[3] top-0 left-0 bg-black overflow-hidden">
+            <div class="videodiv w-full h-screen absolute z-[3] top-0 left-0 bg-black overflow-hidden">
                 <video class="absolute w-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
                     src="https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/bBj1XfrSyi/1ENIoa5sjq"
                     autoplay muted loop></video>
@@ -509,24 +509,74 @@
                 </div>
             </div>
         </div>
-        <div class="capsules w-full h-screen flex items-start justify-between mt-60 px-16">
-            <div class="left w-[32%] h-full flex flex-col justify-between">
+        <div class="capsules w-fit h-screen flex items-start justify-between mt-60 pl-14">
+            <div class="left w-[33%]  h-full flex flex-col items-start justify-between">
                 <div class="left-top w-[50%]">
                     <h1 class="text-[1rem] leading-7 font-medium font-[Satoshi]">Stay up-to-date on the latest
                         healthcare innovations and thought leadership.</h1>
                 </div>
                 <div class="left-heading w-full">
-                    <h1 class="text-6xl font-[MachinaLight]">Explore Our Insights</h1>
-                    <div class="team-btn mt-4 w-full flex justify-start items-center ">
+                    <h1 class="text-6xl font-[MachinaLight]">Explore</h1>
+                    <h1 class="text-6xl font-[MachinaLight] my-4">Our Insights</h1>
+                    <div class="team-btn mt-4 w-full flex justify-start items-center">
                         <button
                             class="border-[1px] border-[--black] px-4 py-3 text-[.9rem] font-semibold font-[Satoshi]">VIEW
                             ALL ARTICLES<i class="ri-arrow-right-up-line pl-3"></i></button>
                     </div>
                 </div>
             </div>
+            <div class="right w-[67%] h-full flex items-center gap-16 pl-8">
+                <div
+                    class="capsule -rotate-[16deg] flex flex-col items-center p-7 rounded-full border-[1.2px] border-black cursor-pointer">
+                    <div class="w-64 h-64 bg-yellow-500 rounded-full overflow-hidden">
+                        <img class="w-full h-full object-cover"
+                            src="https://assets-global.website-files.com/659dbdfd5a080be8d3483190/65e61826ab9558e05e681a7f_Untitled%20design.png"
+                            alt="">
+                    </div>
+                    <div class="text text-center mt-16 select-none">
+                        <h3 class="text-[1.3rem]">Equity in Tech: An</h3>
+                        <h3 class="text-[1.3rem]">International Women's</h3>
+                        <h3 class="text-[1.3rem]">Day Conversation with</h3>
+                        <h3 class="text-[1.3rem]">Caroline Nieto,</h3>
+                        <h3 class="text-[1.3rem]">Significo's CPO</h3>
+                    </div>
+                    <button
+                        class="bg-purple-200 font-semibold text-black px-3 py-2 rounded-full text-[.9rem] mt-14 mb-14">Thought
+                        Leadership</button>
+                </div>
+                <div
+                    class="capsule -rotate-[16deg] flex flex-col-reverse items-center p-7 rounded-full border-[1.2px] border-black cursor-pointer overflow-hidden">
+                    <div class="w-64 h-64 bg-yellow-500 rounded-full overflow-hidden">
+                        <img class="w-full h-full object-cover"
+                            src="https://assets-global.website-files.com/659dbdfd5a080be8d3483190/65affe89f470b736a1da1ba2_How%20to%20Use%20Digital%20Health%20Interventions.jpg"
+                            alt="">
+                    </div>
+                    <div class="text text-center select-none">
+                        <h3 class="text-[1.3rem]">How to Use Digital</h3>
+                        <h3 class="text-[1.3rem]">Health Interventions</h3>
+                        <h3 class="text-[1.3rem]">to Align Employee &</h3>
+                        <h3 class="text-[1.3rem]">Organization Goals</h3>
+                        <p>
+                        <h6 class="text-[.8rem] font-[Satoshi] mt-6">How to use personalized digital health </h6>
+                        <h5 class="text-[.8rem] font-[Satoshi]">interventions to empower employees while </h5>
+                        <h5 class="text-[.8rem] font-[Satoshi] mb-14">achieving your organization's goals.</h5>
+                        </p>
+                    </div>
+                    <button
+                        class="bg-purple-300 font-semibold text-black px-3 py-2 rounded-full text-[.9rem] mt-7 mb-14">Thought
+                        Leadership</button>
+                </div>
+            </div>
         </div>
     </div>
 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+        integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
+        integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="script.js"></script>
 </body>
 
